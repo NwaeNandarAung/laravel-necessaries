@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/image', [ImageController::class, 'index']);
+
+Route::post('/image-upload', [ImageController::class, 'uploadImage'])->name('uploadImage');
+
+Route::delete('image/{imageId}', [ImageController::class, 'deleteImage']);
+
+Route::get('image/search', [ImageController::class, 'searchImage']);
