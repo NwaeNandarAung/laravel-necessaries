@@ -1,0 +1,206 @@
+/* inspinia打ち消し用 */
+
+.breadcrumb {
+    background-color: inherit;
+}
+
+.page-heading {
+    padding-bottom: 10px;
+}
+
+.title-action {
+    padding-top: 10px;
+}
+
+.navbar-static-side {
+    width: 150px;
+}
+
+#page-wrapper {
+    margin-left: 150px;
+}
+
+.top-navigation .navbar-brand {
+    background-color: #ffffff;
+}
+
+.gray-blue-bg {
+    background-color: #f1f1f7;
+}
+
+body {
+    font-size: 14px;
+}
+
+.nav .label,
+.ibox .label {
+    font-size: 14px;
+}
+
+.top-navigation .wrapper.wrapper-content {
+    padding: 20px;
+}
+
+
+/* //inspinia打ち消し用 */
+
+
+/* ログインページ用 */
+
+.loginscreen.middle-box {
+    width: 550px;
+    max-width: 550px;
+}
+
+.loginscreen .form-control {
+    height: 60px;
+    font-size: 18px;
+}
+
+
+/* //ログインページ用 */
+
+
+/* メニュー用 */
+
+.navbar-nav li {
+    text-align: center;
+}
+
+.top-navigation .nav>li>a {
+    color: #445055;
+}
+
+.nav>li>a>i {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    ;
+}
+
+
+/* //メニュー用 */
+
+
+/* フォーム用 */
+
+.input-form input[type="text"],
+.input-form input[type="email"],
+.input-form input[type="tel"],
+.input-form input[type="password"] {
+    height: 46px;
+    font-size: 16px;
+}
+
+.input-form .fit {
+    height: 46px;
+    font-size: 16px;
+}
+
+.input-form label {
+    font-size: 16px;
+    text-align: right;
+    margin-top: 12px;
+}
+
+
+/* //フォーム用 */
+
+i.sm {
+    font-size: 14px;
+}
+
+i.ml {
+    font-size: 20px;
+}
+
+i.lg {
+    font-size: 26px;
+}
+
+i.xl {
+    font-size: 36px;
+}
+
+.notice {
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.notice.notice-info {
+    background-color: #f5f6f9;
+    border-color: #d1d2d9;
+}
+
+.notice.notice-info a {
+    color: #333333;
+}
+
+.notice-detail div {
+    margin: 10px 40px;
+}
+
+.panel-group .panel {
+    margin-bottom: 20px;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.bg-danger-light {
+    background-color: #fc8f9a;
+    color: #2e2d2d;
+    font-weight: bold;
+}
+
+.bg-info-light {
+    background-color: #c6f6f7;
+    color: #504f4f;
+    font-weight: bold;
+}
+
+.table-center>thead>tr>th,
+.table-center>tbody>tr>td {
+    vertical-align: middle;
+    line-height: 28px;
+}
+
+th.order::after {
+    font-family: "FontAwesome";
+    content: "\f0dc";
+    padding-left: 3px;
+    color: #c0c0c0
+}
+
+th.order.asc::after {
+    content: "\f160";
+    color: #374583;
+    font-weight: bold;
+}
+
+th.order.desc::after {
+    content: "\f161";
+    color: #374583;
+    font-weight: bold;
+}
+
+td.modalcursor {
+    cursor: pointer;
+    color: #337ab7;
+}
+
+.c-p {
+    cursor: pointer;
+}
+
+.text-thin {
+    color: #dddddd;
+}
