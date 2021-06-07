@@ -1,0 +1,70 @@
+/* inspinia打ち消し用 */
+
+.breadcrumb {
+    background-color: inherit;
+}
+
+.page-heading {
+    padding-bottom: 10px;
+}
+
+.title-action {
+    padding-top: 10px;
+}
+
+.navbar-static-side {
+    width: 150px;
+}
+
+#page-wrapper {
+    margin-left: 150px;
+}
+
+
+/* inspinia打ち消し用 */
+
+body {
+    /* background-color: #575757; */
+}
+
+.nav-header {
+    background-color: #ffffff;
+    background-image: none;
+    padding: 18px 15px;
+}
+
+
+/* .nav>li.active {
+    background: #ededed;
+} */
+
+
+/*
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus {
+    background-color: #ededed;
+} */
+
+i.sm {
+    font-size: 14px;
+}
+
+i.ml {
+    font-size: 20px;
+    width: 26px
+}
+
+i.lg {
+    font-size: 30px;
+    width: 36px
+}
+
+.no-pd {
+    padding: 0 0 0 0;
+}
+
+.no-pd-sd {
+    padding-left: 0;
+    padding-right: 0;
+}
+

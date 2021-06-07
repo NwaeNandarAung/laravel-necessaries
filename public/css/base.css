@@ -1,0 +1,102 @@
+/* inspinia打ち消し用 */
+
+.breadcrumb {
+    background-color: inherit;
+}
+
+.page-heading {
+    padding-bottom: 10px;
+}
+
+.title-action {
+    padding-top: 10px;
+}
+
+.navbar-static-side {
+    width: 150px;
+}
+
+#page-wrapper {
+    margin-left: 150px;
+}
+
+.top-navigation .navbar-brand {
+    background-color: #ffffff;
+}
+
+
+/* inspinia打ち消し用 */
+
+i.sm {
+    font-size: 14px;
+}
+
+i.ml {
+    font-size: 20px;
+    width: 26px
+}
+
+i.lg {
+    font-size: 30px;
+    width: 36px
+}
+
+.no-pd {
+    padding: 0 0 0 0;
+}
+
+.no-pd-sd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a[target="_blank"]::after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f360';
+    font-size: 105%;
+    font-weight: 900;
+    margin: 0 3px;
+}
+
+#btnUpload {
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+
+  #content {
+      margin-bottom:50px;
+  }
+
+ #search_section {
+     margin-bottom: 50px;
+ }
+
+ .container {
+    height: fit-content;
+ }
+ .pagination>li {
+    color: #1ab394;
+    font-weight: bolder;
+    float: left;
+
+  }
+  .pagination>li>a, .pagination>li>span {
+      padding: 10px 20px;
+  }
+  #nav_bar {
+      background-color: #ffffff;
+      margin-bottom: -20px;
+  }
+
+  #upload {
+    display: inline-block;
+    line-height: 2.2em;
+    padding: 0 0.62em;
+    border: 1px solid #1ab394;
+    border-radius: 0.25em;
+    font-family: arial, sans-serif;
+    font-size: 0.8em;
+    background-color: #1ab394;
+    color:#ffffff;
+  }
+  
